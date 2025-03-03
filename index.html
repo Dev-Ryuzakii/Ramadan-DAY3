@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prayer Times App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🕌 Prayer Times</h1>
+    <div class="input-group">
+      <label for="cityInput">Enter City:</label>
+      <input type="text" id="cityInput" placeholder="e.g., Mecca">
+      <button id="getPrayerTimes">Get Prayer Times</button>
+    </div>
+    <div id="prayerTimes">
+      <div class="prayer-time">
+        <span>Fajr</span>
+        <span id="fajr">--:--</span>
+      </div>
+      <div class="prayer-time">
+        <span>Dhuhr</span>
+        <span id="dhuhr">--:--</span>
+      </div>
+      <div class="prayer-time">
+        <span>Asr</span>
+        <span id="asr">--:--</span>
+      </div>
+      <div class="prayer-time">
+        <span>Maghrib</span>
+        <span id="maghrib">--:--</span>
+      </div>
+      <div class="prayer-time">
+        <span>Isha</span>
+        <span id="isha">--:--</span>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
